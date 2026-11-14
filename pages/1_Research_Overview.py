@@ -35,6 +35,21 @@ with col4:
 st.warning("Currently running in Demonstration Mode with synthetic data. Upload real fundamentals in Data Management for research analysis.")
 
 st.markdown("""
+### Theoretical Foundations
+This laboratory is grounded in production-based asset pricing.
+
+- **Tobin (1969)**: Firms invest when the market value of capital exceeds its replacement cost (Tobin’s q > 1).
+- **Hayashi (1982)**: Under certain conditions marginal q equals average q, linking investment to market valuations.
+- **Cochrane (1991)**: Production-based asset pricing — high investment today implies low expected returns (adjustment costs).
+- **Liu, Whited & Zhang (2009)**: Investment-based models of expected stock returns.
+- **Fama & French (2015)**: The five-factor model explicitly includes investment (CMA) and profitability (RMW) factors.
+
+**Key intuition**: Companies that invest aggressively today have lower expected future returns because the high investment already capitalises expected cash-flow growth. Conservative investors (low I/K) are associated with higher subsequent stock returns.
+
+The empirical tests in this lab examine whether this relationship holds in the Indian equity market after standard risk and characteristic controls.
+""")
+
+st.markdown("""
 ### Data Quality Warnings
 - Synthetic observations are clearly labelled and must never be mixed with real market data.
 - Yahoo Finance does not provide complete historical Indian fundamentals.
