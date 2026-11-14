@@ -4,6 +4,12 @@
 
 ![IIRL Banner](https://via.placeholder.com/800x200/0A1929/00D4AA?text=India+Investment+Returns+Lab)
 
+## Live App
+
+**🚀 Try it now:** [https://returns-lab.streamlit.app/](https://returns-lab.streamlit.app/)
+
+The application starts in **Demonstration Mode** with clearly labelled synthetic data. Switch to Research Mode to upload your own financial statements.
+
 ## Overview
 
 The **India Investment Returns Lab (IIRL)** is a professional quantitative research platform designed to investigate the relationship between corporate investment intensity, profitability, firm characteristics, and subsequent stock returns in the Indian equity market.
@@ -39,7 +45,7 @@ Inspired by production-based asset pricing theory (Tobin's q, adjustment costs) 
 - Liu, Whited & Zhang (2009): Investment-based expected returns
 - Fama & French (2015): Five-factor model (including investment and profitability)
 
-## Quick Start
+## Quick Start (Local)
 
 ```bash
 git clone https://github.com/PrakharQuant/india-investment-returns-lab.git
@@ -50,8 +56,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application starts in **Demonstration Mode** with synthetic data. Switch to Research Mode to upload real financial data.
-
 ## Data Requirements
 
 - Daily adjusted stock prices (via yfinance or upload)
@@ -60,9 +64,11 @@ The application starts in **Demonstration Mode** with synthetic data. Switch to 
 
 Downloadable CSV templates are provided in the Data Management section.
 
-## Deployment (Render)
+## Deployment
 
-See `render.yaml` and the Deployment section below.
+The live application is deployed on Streamlit Community Cloud: [https://returns-lab.streamlit.app/](https://returns-lab.streamlit.app/)
+
+A `render.yaml` is also included for deployment on Render.
 
 ## Author & Credits
 
