@@ -18,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Custom CSS for professional quantitative finance aesthetic
+# Custom CSS for professional quantitative finance aesthetic and readable sidebar
 st.markdown(f"""
 <style>
     .stApp {{
@@ -26,7 +26,20 @@ st.markdown(f"""
         color: #E0E0E0;
     }}
     .stSidebar {{
+        background-color: {COLORS['charcoal']} !important;
+    }}
+    .stSidebar .stMarkdown, .stSidebar p, .stSidebar label, .stSidebar .stRadio label,
+    .stSidebar h1, .stSidebar h2, .stSidebar h3, .stSidebar span, .stSidebar div {{
+        color: #E0E0E0 !important;
+    }}
+    .stSidebar .stRadio > div {{
+        color: #E0E0E0 !important;
+    }}
+    [data-testid="stSidebar"] {{
         background-color: {COLORS['charcoal']};
+    }}
+    [data-testid="stSidebar"] * {{
+        color: #E0E0E0 !important;
     }}
     h1, h2, h3 {{
         color: {COLORS['accent']};
