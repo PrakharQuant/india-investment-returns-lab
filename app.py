@@ -59,7 +59,7 @@ st.markdown("""
 Investigating the investment–return relationship in Indian equities.
 
 *Built by [Prakhar Gupta](https://github.com/PrakharQuant)*  
-[LinkedIn](https://www.linkedin.com/in/prakhar-gupta) · [X](https://x.com/PrakharQuant) · [Email](mailto:bestofprakhar@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/prakhar-gupta-5b7250372) · [X](https://x.com/PrakharQuant) · [Email](mailto:bestofprakhar@gmail.com)
 """)
 
 st.info("Navigate using the sidebar. Start in **Demonstration Mode** with synthetic data, or switch to Research Mode to upload actual data.")
