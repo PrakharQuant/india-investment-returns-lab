@@ -74,7 +74,7 @@ A `render.yaml` is also included for deployment on Render.
 
 **Built by Prakhar Gupta**
 
-- LinkedIn: [Prakhar Gupta](https://www.linkedin.com/in/prakhar-gupta)
+- LinkedIn: [Prakhar Gupta](https://www.linkedin.com/in/prakhar-gupta-5b7250372)
 - X (Twitter): [@PrakharQuant](https://x.com/PrakharQuant)
 - Email: [bestofprakhar@gmail.com](mailto:bestofprakhar@gmail.com)
 - Website: [prakharquant.github.io](https://prakharquant.github.io/)
